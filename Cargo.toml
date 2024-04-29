@@ -1,0 +1,16 @@
+[package]
+name = "astoria"
+version = "0.1.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
+dotenv = "0.15.0"
+rusoto_s3 = "0.48.0"
+rusoto_core = "0.48.0"
+rusoto_sqs = "0.48.0"
+rusoto_credential = "0.48.0"
+rdkafka = "0.36.2"
+ffmpeg-next = "7.0.0"
